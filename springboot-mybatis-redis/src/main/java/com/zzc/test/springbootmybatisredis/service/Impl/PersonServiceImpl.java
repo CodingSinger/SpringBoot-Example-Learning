@@ -87,12 +87,12 @@ public class PersonServiceImpl implements PersonService {
 
         state = dao.updateName(person);
 
-        try {
-            int i = 1/0;
-        } catch (Exception e) {
-            throw new Exception(e.getMessage());
-        } finally {
-        }
+//        try {
+//            int i = 1/0;
+//        } catch (Exception e) {
+//            throw new Exception(e.getMessage());
+//        } finally {
+//        }
 
 
         return state;

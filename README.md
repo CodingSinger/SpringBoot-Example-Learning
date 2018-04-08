@@ -1,9 +1,13 @@
-# SpringBoot-Example-Learning
+# SpringBoot-Example-Learning #
 
-## springboot-helloworld
+
+***
+
+
+# springboot-helloworld
 第一个SpringBoot学习案例
 
-## springboot-mybatis
+# springboot-mybatis
 spriingboot结合mybatis进行开发
 
 **注意需要在启动类上加上dao接口类扫描的完整包名**
@@ -11,7 +15,7 @@ spriingboot结合mybatis进行开发
 
 
 
-## springboot-mybatis-redis
+# springboot-mybatis-redis
 
 
 * @Transactional//默认只回滚运行时异常 除非用rollbackFor指定 (rollbackFor = Exception.class) 
@@ -19,9 +23,9 @@ spriingboot结合mybatis进行开发
  
 * RedisTemplate默认使用的是JdkSerializationRedisSerializer，所以需要对象实现Serializable接口
   
-* Http的PUT方法传参数不能用Content-Type：form-data传参
+* Http的PUT方法传参数不能用Content-Type：multipart/form-data传参
 
-
+* @RequestBody 接受对象的json字符串，需要请求头dataType: "json",contentType:"application/json"
 
 redis做缓存不能用在强一致的情况下，redis做为mysql的缓存
 其基本的策略一般是读先读redis，redis没有才去读mysql,并将读到的内容插入redis
