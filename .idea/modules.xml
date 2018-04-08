@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-Example-Learning.iml" filepath="$PROJECT_DIR$/SpringBoot-Example-Learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-redis/springboot-mybatis-redis.iml" filepath="$PROJECT_DIR$/springboot-mybatis-redis/springboot-mybatis-redis.iml" />
     </modules>
   </component>
 </project>
