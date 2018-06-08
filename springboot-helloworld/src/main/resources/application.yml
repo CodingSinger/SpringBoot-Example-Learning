@@ -1,0 +1,36 @@
+server:
+  port: ${port:8080}
+
+logging:
+  file:
+    max-history: ${max}
+
+# 如果不指定默认值并且在运行程序注入时找不到参数则会报错
+
+
+
+hello:
+  name: ${UT:hello}
+  desc: ${DESC:/d}
+
+
+custom:
+  name: hello
+  age: 10
+
+#自定义的属性必须指定默认值,并且指定默认值之后 只能用UT=sd来赋值，用hello.name=sd无法进行赋值,但是可以用@Value("${hello.name}")来注入,但是不能用@Value("${UT}")来注入
+
+
+#如下配置 无法用hello.name=dsd进行注入
+
+#
+#hello:
+#  name: ${UT}
+
+
+# 例如修改web默认端口需要使用--server.port=9090方式，如果在配置中写上：
+# server.port=${port:8080}
+# 那么就可以使用更短的--port=9090，当不提供该参数的时候使用默认值8080。注入的时候也可以用@Value("${port}")
+
+
+# 推荐使用默认值，并且在赋值和注入的时候都用简写

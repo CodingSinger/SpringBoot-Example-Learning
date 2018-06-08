@@ -1,7 +1,11 @@
 package com.zzc.test.springboot_mybatis.springbootmybatis;
 
+import com.zzc.test.springboot_mybatis.springbootmybatis.domain.Person;
+
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
+import java.util.LinkedList;
+import java.util.List;
 
 
 /**
@@ -19,6 +23,22 @@ public class Main {
         MyAnnotation b = m.getAnnotation(MyAnnotation.class);
         System.out.println(b.annotationType());
         System.out.println(b.name());
+
+        List<Person> people = new LinkedList<>();
+        Person p1 = new Person();
+        p1.setName("ss");
+        Person p2 = new Person();
+        p2.setName("ss");
+        people.add(p1);
+        people.add(p2);
+        System.out.println(people);
+
+        for (Person person : people) {
+            person.setName(person.getName()+"s");
+
+
+        }
+        System.out.println(people.toString());
 
     }
 

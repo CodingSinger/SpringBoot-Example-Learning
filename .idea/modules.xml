@@ -3,8 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-Example-Learning.iml" filepath="$PROJECT_DIR$/SpringBoot-Example-Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-consumer/springboot-dubbo-consumer.iml" filepath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-producer/springboot-dubbo-producer.iml" filepath="$PROJECT_DIR$/springboot-dubbo-producer/springboot-dubbo-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-helloworld/springboot-helloworld.iml" filepath="$PROJECT_DIR$/springboot-helloworld/springboot-helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-redis/springboot-mybatis-redis.iml" filepath="$PROJECT_DIR$/springboot-mybatis-redis/springboot-mybatis-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" filepath="$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rocketmq-consumer/springboot-rocketmq-consumer.iml" filepath="$PROJECT_DIR$/springboot-rocketmq-consumer/springboot-rocketmq-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rocketmq/springboot-rocketmq-producer.iml" filepath="$PROJECT_DIR$/springboot-rocketmq/springboot-rocketmq-producer.iml" />
     </modules>
   </component>
 </project>

@@ -1,6 +1,7 @@
 package com.zzc.test.springboot_mybatis.springbootmybatis.service.Impl;
 
 import com.zzc.test.springboot_mybatis.springbootmybatis.Dao.PersonDao;
+import com.zzc.test.springboot_mybatis.springbootmybatis.Dao.PersonDaoDao;
 import com.zzc.test.springboot_mybatis.springbootmybatis.domain.Person;
 import com.zzc.test.springboot_mybatis.springbootmybatis.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,8 +16,14 @@ import org.springframework.transaction.annotation.Transactional;
 public class PersonServiceImpl implements PersonService {
 
 
+    /**
+     *
+     */
     @Autowired
     private PersonDao dao;
+
+    @Autowired
+    private PersonDaoDao daodao;
 
 
     @Transactional
@@ -24,6 +31,7 @@ public class PersonServiceImpl implements PersonService {
     public int addPerson(Person p) {
 
         int state = dao.add(p);
+//        int state = daodao.create(p);
         if (p.getName().equals("he")){
             int i = 1/0;
         }
@@ -36,6 +44,7 @@ public class PersonServiceImpl implements PersonService {
     @Override
     public Person findById(Integer id) {
 
-        return dao.queryById(id);
+        return daodao.findById(id);
+//        return dao.queryById(id);
     }
 }

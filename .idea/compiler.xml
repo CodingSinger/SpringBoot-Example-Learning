@@ -6,14 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-dubbo-consumer" />
+        <module name="springboot-dubbo-producer" />
+        <module name="springboot-elasticsearch" />
+        <module name="springboot-helloworld" />
         <module name="springboot-mybatis" />
         <module name="springboot-mybatis-redis" />
+        <module name="springboot-quartz" />
+        <module name="springboot-rocketmq" />
+        <module name="springboot-rocketmq-consumer" />
+        <module name="springboot-rocketmq-producer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-dubbo-consumer" target="1.8" />
+      <module name="springboot-dubbo-producer" target="1.8" />
+      <module name="springboot-elasticsearch" target="1.8" />
       <module name="springboot-helloworld" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
       <module name="springboot-mybatis-redis" target="1.8" />
+      <module name="springboot-quartz" target="1.8" />
+      <module name="springboot-rocketmq" target="1.8" />
+      <module name="springboot-rocketmq-consumer" target="1.8" />
+      <module name="springboot-rocketmq-producer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

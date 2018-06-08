@@ -30,4 +30,13 @@ public class Test1 {
         System.out.println(System.currentTimeMillis()-l2);
 
     }
+
+
+    @Test
+    public void name2() throws Exception {
+        Integer i = new Integer(1);
+        System.out.println(i^1);
+        Integer i1 = new Integer(0);
+        System.out.println(i1^1);
+    }
 }

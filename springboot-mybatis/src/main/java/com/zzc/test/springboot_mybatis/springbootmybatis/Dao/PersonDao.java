@@ -21,7 +21,7 @@ public interface PersonDao {
      *
      * @param id
      */
-    public int add(@Param(value = "p") Person person);
+    public int add(Person person);
 
 
     /**

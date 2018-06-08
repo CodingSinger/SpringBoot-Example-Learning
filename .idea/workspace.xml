@@ -1,0 +1,1912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c6aebf1-d37a-45ed-aaa8-ae4370244429" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_actuator_0_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_autoconfigure_0_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_dubbo_spring_boot_starter_0_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_terminus_common_terminus_spring_boot_starter_rocketmq_0_0_3_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_srvutil_4_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_store_4_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_tools_4_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_quartz_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-dubbo-consumer/src/main/java/com/zzc/test/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-dubbo-consumer/src/test/java/com/zzc/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-dubbo-producer/src/main/java/com/zzc/test/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-dubbo-producer/src/main/java/com/zzc/test/service/impl/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/zzc/test/elasticsearch/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/zzc/test/elasticsearch/dao/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/zzc/test/elasticsearch/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/zzc/test/elasticsearch/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/CustomProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/CustomeConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-helloworld/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-helloworld/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-helloworld/src/test/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-helloworld/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/Dao/PersonDaoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/controller/TestCom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/domain/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/domain/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/service/Impl/TestRTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/test/java/com/zzc/test/springboot_mybatis/springbootmybatis/TestReflectionGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/QuartzAutoConfigutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/controller/JobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/domain/MyFirstJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/domain/ScheduleJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/listeners/LogListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/properties/QuartzProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/service/JobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz/src/main/resources/quartz.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz/src/main/resources/shema/quartz.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz/src/test/java/com/zzc/test/springbootquartz/QuartzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq-consumer/src/main/java/com/zzc/test/core/UserConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/com/zzc/test/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/com/zzc/test/core/UserConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/com/zzc/test/core/UserProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/com/zzc/test/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/test/java/com/zzc/test/SpringBootRocketMQTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/filter_example/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/filter_example/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/schedule_example/HelloHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/schedule_example/ScheduledMessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/schedule_example/ScheduledMessageProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/SpringbootHelloworldApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/SpringbootHelloworldApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/controller/HellloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/controller/HellloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-helloworld/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-elasticsearch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-helloworld/src/test/java/com/zzc/test/springboothelloworld/SpringbootHelloworldApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-helloworld/src/test/java/com/zzc/test/springboothelloworld/SpringbootHelloworldApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-helloworld/src/test/java/com/zzc/test/springboothelloworld/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-helloworld/src/test/java/com/zzc/test/springboothelloworld/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/Dao/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/Dao/PersonDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/domain/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/service/Impl/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/service/Impl/PersonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/mapper/PersonDaoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/mapper/PersonDaoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/test/java/com/zzc/test/springboot_mybatis/springbootmybatis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/test/java/com/zzc/test/springboot_mybatis/springbootmybatis/Main.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/springboot-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-mybatis-redis/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-rocketmq/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-rocketmq-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-dubbo-producer/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-dubbo-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-helloworld/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-elasticsearch/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-quartz/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SpringBoot_Example_Learning$Producer__1_.coverage" NAME="Producer (1) Coverage Results" MODIFIED="1525593141766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>rocketmq.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="JobService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/service/JobService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JobController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/controller/JobController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/listeners/LogListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="33" column="67" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quartz.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/resources/quartz.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuartzAutoConfigutation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/QuartzAutoConfigutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyFirstJob.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/domain/MyFirstJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleJob.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/domain/ScheduleJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuartzTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-quartz/src/test/java/com/zzc/test/springbootquartz/QuartzTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringbootQuartzApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-quartz/src/test/java/com/zzc/test/springbootquartz/SpringbootQuartzApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>拦截请求/person/1</find>
+      <find>拦截请求</find>
+      <find>writeMethodRef</find>
+      <find>consumerTable</find>
+      <find>selectOneMessageQueue</find>
+      <find>broker</find>
+      <find>BaseJdbcLoggerBaseJdbcLogger</find>
+      <find>BaseJdbcLogger</find>
+      <find>payments</find>
+      <find>s</find>
+      <find>useServerPreparedStmts</find>
+      <find>select</find>
+      <find>sdsd</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/springboot-dubbo-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-helloworld/src/test/java/com/zzc/test/springboothelloworld/Test1.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/domain/Dog.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/test/java/com/zzc/test/springboot_mybatis/springbootmybatis/Main.java" />
+        <option value="$PROJECT_DIR$/springboot-data-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/zzc/test/elasticsearch/service/impl/PersonService.java" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/zzc/test/elasticsearch/service/PersonService.java" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/zzc/test/elasticsearch/service/impl/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/zzc/test/elasticsearch/controller/PersonController.java" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/zzc/test/elasticsearch/domain/Person.java" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch/README.md" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/zzc/test/elasticsearch/dao/PersonDao.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/domain/Person.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/domain/Human.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/test/java/com/zzc/test/springboot_mybatis/springbootmybatis/TestReflectionGen.java" />
+        <option value="$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/schedule_example/HelloHook.java" />
+        <option value="$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/Producer.java" />
+        <option value="$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/Consumer.java" />
+        <option value="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/controller/HellloController.java" />
+        <option value="$PROJECT_DIR$/springboot-helloworld/src/test/java/com/zzc/test/springboothelloworld/SpringbootHelloworldApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springboot-helloworld/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/SpringbootHelloworldApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/CustomProperties.java" />
+        <option value="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/CustomeConfiguration.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/resources/mapper/PersonDaoMapper.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/Dao/PersonDaoDao.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/README.md" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/service/Impl/TestRTwo.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/controller/TestCom.java" />
+        <option value="$PROJECT_DIR$/springboot-quartz/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/QuartzProperties.java" />
+        <option value="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/properties/ScheduleJobFactory.java" />
+        <option value="$PROJECT_DIR$/springboot-quartz/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/domain/MyFirstJob.java" />
+        <option value="$PROJECT_DIR$/springboot-quartz/src/main/resources/shema/quartz.sql" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/controller/PersonController.java" />
+        <option value="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/domain/ScheduleJob.java" />
+        <option value="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/controller/JobController.java" />
+        <option value="$PROJECT_DIR$/springboot-quartz/src/test/java/com/zzc/test/springbootquartz/QuartzTest.java" />
+        <option value="$PROJECT_DIR$/springboot-quartz/readme.md" />
+        <option value="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/service/JobService.java" />
+        <option value="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/properties/QuartzProperties.java" />
+        <option value="$PROJECT_DIR$/springboot-quartz/src/main/resources/quartz.properties" />
+        <option value="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/QuartzAutoConfigutation.java" />
+        <option value="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/listeners/LogListener.java" />
+        <option value="$PROJECT_DIR$/springboot-quartz/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootmybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootmybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-quartz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootquartz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootquartz" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootquartz" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootquartz" type="462c0819:PsiDirectoryNode" />
+              <item name="listeners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootquartz" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootquartz" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="shema" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootquartz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis:3.4.5" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis:3.4.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.4.5.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis:3.4.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.4.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis:3.4.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.4.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GO_FMT" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zzc.test.springboot_mybatis.springbootmybatis.domain" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zzc.test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zzc.test.springbootquartz.properties" />
+      <recent name="com.zzc.test.core" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springboot-helloworld/src/test" />
+      <recent name="$PROJECT_DIR$/springboot-dubbo-producer/src/main/java/com/zzc/test" />
+      <recent name="$PROJECT_DIR$/springboot-rocketmq-consumer/src/main/resources" />
+      <recent name="$PROJECT_DIR$/springboot-mybatis-redis/src/main/resources" />
+      <recent name="$PROJECT_DIR$/springboot-mybatis-redis/src/main/java/com/zzc/test/springbootmybatisredis" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SpringbootQuartzApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="QuartzTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzc.test.springbootquartz.QuartzTest" />
+      <module name="springboot-quartz" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzc.test.springbootquartz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SpringbootHelloworldApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzc.test.springboothelloworld.SpringbootHelloworldApplication" />
+      <module name="springboot-helloworld" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzc.test.springboothelloworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SpringbootQuartzApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzc.test.springbootquartz.SpringbootQuartzApplication" />
+      <module name="springboot-quartz" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzc.test.springbootquartz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SpringbootHelloworldApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-helloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzc.test.springboothelloworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zzc.test.springboothelloworld" />
+      <option name="MAIN_CLASS_NAME" value="com.zzc.test.springboothelloworld.SpringbootHelloworldApplicationTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SpringbootHelloworldApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-helloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzc.test.springboothelloworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zzc.test.springboothelloworld" />
+      <option name="MAIN_CLASS_NAME" value="com.zzc.test.springboothelloworld.SpringbootHelloworldApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SpringbootDubboConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-dubbo-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzc.test.SpringbootDubboConsumerApplication" />
+      <option name="VM_PARAMETERS" value="-Djava.net.preferIPv4Stack=true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="SpringbootDubboProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-dubbo-producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzc.test.SpringbootDubboProducerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="SpringbootElasticsearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-elasticsearch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzc.test.elasticsearch.SpringbootElasticsearchApplication" />
+    </configuration>
+    <configuration name="SpringbootMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzc.test.springboot_mybatis.springbootmybatis.SpringbootMybatisApplication" />
+    </configuration>
+    <configuration name="SpringbootMybatisRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-mybatis-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzc.test.springbootmybatisredis.SpringbootMybatisRedisApplication" />
+    </configuration>
+    <configuration name="SpringbootQuartzApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-quartz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzc.test.springbootquartz.SpringbootQuartzApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringbootMybatisApplication" />
+      <item itemvalue="Spring Boot.SpringbootMybatisRedisApplication" />
+      <item itemvalue="Spring Boot.SpringbootDubboProducerApplication" />
+      <item itemvalue="Spring Boot.SpringbootDubboConsumerApplication" />
+      <item itemvalue="Spring Boot.SpringbootElasticsearchApplication" />
+      <item itemvalue="Spring Boot.SpringbootQuartzApplication" />
+      <item itemvalue="JUnit.SpringbootHelloworldApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.SpringbootHelloworldApplicationTests" />
+      <item itemvalue="Application.SpringbootHelloworldApplication" />
+      <item itemvalue="Application.SpringbootQuartzApplication" />
+      <item itemvalue="Application.QuartzTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringbootQuartzApplication" />
+        <item itemvalue="Application.QuartzTest" />
+        <item itemvalue="Application.SpringbootHelloworldApplication" />
+        <item itemvalue="JUnit.SpringbootHelloworldApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.SpringbootHelloworldApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c6aebf1-d37a-45ed-aaa8-ae4370244429" name="Default" comment="" />
+      <created>1523168575487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523168575487</updated>
+      <workItem from="1523168576917" duration="1399000" />
+      <workItem from="1523170044924" duration="6491000" />
+      <workItem from="1523430493813" duration="33000" />
+      <workItem from="1523431535292" duration="263000" />
+      <workItem from="1523513145963" duration="275000" />
+      <workItem from="1523603164596" duration="3892000" />
+      <workItem from="1523607793912" duration="43000" />
+      <workItem from="1523608018753" duration="5202000" />
+      <workItem from="1523628472707" duration="454000" />
+      <workItem from="1523629044824" duration="413000" />
+      <workItem from="1523673669459" duration="3343000" />
+      <workItem from="1523682567157" duration="874000" />
+      <workItem from="1523683806870" duration="259000" />
+      <workItem from="1523684546896" duration="1952000" />
+      <workItem from="1523686925025" duration="3297000" />
+      <workItem from="1523692918185" duration="1689000" />
+      <workItem from="1523694997507" duration="360000" />
+      <workItem from="1523695408671" duration="305000" />
+      <workItem from="1523706545805" duration="2572000" />
+      <workItem from="1523710867684" duration="1724000" />
+      <workItem from="1523785030083" duration="2585000" />
+      <workItem from="1523788500363" duration="611000" />
+      <workItem from="1523791596418" duration="291000" />
+      <workItem from="1523848799829" duration="1931000" />
+      <workItem from="1523859397876" duration="141000" />
+      <workItem from="1523859579708" duration="1366000" />
+      <workItem from="1523861528999" duration="66000" />
+      <workItem from="1523861607771" duration="682000" />
+      <workItem from="1523872091636" duration="7836000" />
+      <workItem from="1523972040658" duration="877000" />
+      <workItem from="1523977070590" duration="512000" />
+      <workItem from="1523978006211" duration="679000" />
+      <workItem from="1524022041202" duration="37000" />
+      <workItem from="1524022273626" duration="1297000" />
+      <workItem from="1524024203003" duration="556000" />
+      <workItem from="1524026560337" duration="2029000" />
+      <workItem from="1524036878563" duration="1006000" />
+      <workItem from="1524038095311" duration="417000" />
+      <workItem from="1524039385225" duration="170000" />
+      <workItem from="1524052054280" duration="79000" />
+      <workItem from="1524057403813" duration="259000" />
+      <workItem from="1524059046311" duration="261000" />
+      <workItem from="1524059824112" duration="565000" />
+      <workItem from="1524063265731" duration="14000" />
+      <workItem from="1524115119060" duration="526000" />
+      <workItem from="1524116007546" duration="761000" />
+      <workItem from="1524118352136" duration="227000" />
+      <workItem from="1524119337822" duration="12000" />
+      <workItem from="1524131881848" duration="59000" />
+      <workItem from="1524213157313" duration="288000" />
+      <workItem from="1524228533497" duration="1730000" />
+      <workItem from="1524287516019" duration="1007000" />
+      <workItem from="1524320783991" duration="3609000" />
+      <workItem from="1524361611704" duration="155000" />
+      <workItem from="1524363527392" duration="665000" />
+      <workItem from="1524364881382" duration="97000" />
+      <workItem from="1524365672055" duration="173000" />
+      <workItem from="1524373475302" duration="500000" />
+      <workItem from="1524482285033" duration="667000" />
+      <workItem from="1524483430811" duration="947000" />
+      <workItem from="1524545018958" duration="10836000" />
+      <workItem from="1524562465252" duration="440000" />
+      <workItem from="1524581533691" duration="2585000" />
+      <workItem from="1524650433374" duration="209000" />
+      <workItem from="1524650774748" duration="61000" />
+      <workItem from="1524663576386" duration="74000" />
+      <workItem from="1524665065859" duration="52000" />
+      <workItem from="1524665134984" duration="6000" />
+      <workItem from="1524712935321" duration="1128000" />
+      <workItem from="1524717803092" duration="75000" />
+      <workItem from="1524731321052" duration="2228000" />
+      <workItem from="1524734225168" duration="53000" />
+      <workItem from="1524796141905" duration="147000" />
+      <workItem from="1524796408245" duration="260000" />
+      <workItem from="1524809559339" duration="1068000" />
+      <workItem from="1524810735821" duration="3442000" />
+      <workItem from="1524814767798" duration="47000" />
+      <workItem from="1524814855303" duration="21000" />
+      <workItem from="1524815132047" duration="17000" />
+      <workItem from="1524815411544" duration="38000" />
+      <workItem from="1524817329789" duration="438000" />
+      <workItem from="1524819311884" duration="74000" />
+      <workItem from="1524890951678" duration="191000" />
+      <workItem from="1525003882417" duration="36000" />
+      <workItem from="1525004335426" duration="5000" />
+      <workItem from="1525087576110" duration="225000" />
+      <workItem from="1525090006884" duration="204000" />
+      <workItem from="1525160170623" duration="3158000" />
+      <workItem from="1525169125379" duration="5554000" />
+      <workItem from="1525179074234" duration="1547000" />
+      <workItem from="1525180842962" duration="4994000" />
+      <workItem from="1525223021884" duration="810000" />
+      <workItem from="1525317815065" duration="865000" />
+      <workItem from="1525327428848" duration="127000" />
+      <workItem from="1525340080584" duration="202000" />
+      <workItem from="1525495721860" duration="892000" />
+      <workItem from="1525514281496" duration="21197000" />
+      <workItem from="1526049734673" duration="180000" />
+      <workItem from="1526049981194" duration="109000" />
+      <workItem from="1526051357473" duration="41000" />
+      <workItem from="1526195439703" duration="1347000" />
+      <workItem from="1526197544668" duration="249000" />
+      <workItem from="1526197806040" duration="1787000" />
+      <workItem from="1526359900769" duration="994000" />
+      <workItem from="1526525308710" duration="1548000" />
+      <workItem from="1526558128508" duration="724000" />
+      <workItem from="1526803387718" duration="1848000" />
+      <workItem from="1527240759856" duration="106000" />
+      <workItem from="1527240979180" duration="973000" />
+      <workItem from="1527247148595" duration="2260000" />
+      <workItem from="1528081502235" duration="1094000" />
+      <workItem from="1528289634185" duration="125000" />
+      <workItem from="1528291954466" duration="640000" />
+      <workItem from="1528431048936" duration="366000" />
+      <workItem from="1528431676664" duration="1125000" />
+      <workItem from="1528434334145" duration="1432000" />
+      <workItem from="1528440214566" duration="8957000" />
+      <workItem from="1528451322066" duration="3919000" />
+    </task>
+    <task id="LOCAL-00001" summary="2018/4/8 Springboot-mybatis-redis">
+      <created>1523184795202</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1523184795202</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2018/4/8-2 Springboot-mybatis-redis">
+      <created>1523185543176</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1523185543176</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SpringbootHelloworldApplicationTests - 2018.05.17 at 11h 03m 21s.xml">
+      <configuration name="SpringbootHelloworldApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootHelloworldApplicationTests - 2018.05.17 at 11h 04m 22s.xml">
+      <configuration name="SpringbootHelloworldApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootHelloworldApplicationTests - 2018.05.17 at 11h 05m 35s.xml">
+      <configuration name="SpringbootHelloworldApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootHelloworldApplicationTests_contextLoads - 2018.05.17 at 10h 59m 46s.xml">
+      <configuration name="SpringbootHelloworldApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootHelloworldApplicationTests_contextLoads - 2018.05.17 at 11h 00m 07s.xml">
+      <configuration name="SpringbootHelloworldApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootHelloworldApplicationTests_contextLoads - 2018.05.17 at 11h 02m 29s.xml">
+      <configuration name="SpringbootHelloworldApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootHelloworldApplicationTests_contextLoads - 2018.05.17 at 11h 02m 56s.xml">
+      <configuration name="SpringbootHelloworldApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootHelloworldApplicationTests_contextLoads - 2018.05.17 at 11h 03m 45s.xml">
+      <configuration name="SpringbootHelloworldApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootHelloworldApplicationTests_contextLoads - 2018.05.17 at 11h 07m 52s.xml">
+      <configuration name="SpringbootHelloworldApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootHelloworldApplicationTests_contextLoads - 2018.05.17 at 11h 08m 53s.xml">
+      <configuration name="SpringbootHelloworldApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="163660000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.519536" side_tool="true" weight="0.2640737" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32967034" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48046398" weight="0.30769232" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32958034" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.29641026" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47680098" visible="true" weight="0.4994872" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24175824" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Web" order="3" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.30402932" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32958034" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32967034" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2018/4/8 Springboot-mybatis-redis" />
+    <MESSAGE value="2018/4/8-2 Springboot-mybatis-redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018/4/8-2 Springboot-mybatis-redis" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis-redis/src/main/java/com/zzc/test/springbootmybatisredis/service/Impl/PersonServiceImpl.java</url>
+          <line>57</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis-redis/src/main/java/com/zzc/test/springbootmybatisredis/service/Impl/PersonServiceImpl.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis-redis/src/main/java/com/zzc/test/springbootmybatisredis/controller/PersonController.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/test/java/com/zzc/test/SpringBootRocketMQTest.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/schedule_example/ScheduledMessageConsumer.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/main/java/com/zzc/test/core/UserProducer.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/Consumer.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.4.RELEASE/spring-webmvc-5.0.4.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ExtendedServletRequestDataBinder.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/controller/HellloController.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE-sources.jar!/org/springframework/web/method/annotation/AbstractNamedValueMethodArgumentResolver.java</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE-sources.jar!/org/springframework/web/method/annotation/AbstractNamedValueMethodArgumentResolver.java</url>
+          <line>120</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.4.RELEASE/spring-context-5.0.4.RELEASE-sources.jar!/org/springframework/validation/DataBinder.java</url>
+          <line>732</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.4.RELEASE/spring-context-5.0.4.RELEASE-sources.jar!/org/springframework/validation/DataBinder.java</url>
+          <line>838</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/domain/Dog.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/domain/Person.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/domain/Person.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/domain/Person.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE-sources.jar!/org/springframework/web/method/annotation/ModelAttributeMethodProcessor.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/consumer/ConsumeMessageOrderlyService.java</url>
+          <line>463</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/zzc/test/elasticsearch/service/impl/PersonServiceImpl.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/zzc/test/elasticsearch/controller/PersonController.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/producer/TopicPublishInfo.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/producer/TopicPublishInfo.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/Producer.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/Consumer.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/Consumer.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/Producer.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/factory/MQClientInstance.java</url>
+          <line>639</line>
+          <properties />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/producer/DefaultMQProducerImpl.java</url>
+          <line>717</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/producer/DefaultMQProducerImpl.java</url>
+          <line>695</line>
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/schedule_example/HelloHook.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/schedule_example/HelloHook.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/producer/DefaultMQProducerImpl.java</url>
+          <line>439</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/producer/DefaultMQProducerImpl.java</url>
+          <line>580</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/producer/DefaultMQProducerImpl.java</url>
+          <line>590</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/producer/DefaultMQProducerImpl.java</url>
+          <line>462</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/interceptor/MyFirstInterceptor.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/Consumer.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/consumer/ConsumeMessageConcurrentlyService.java</url>
+          <line>391</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/Consumer.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/Consumer.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/consumer/DefaultMQPushConsumerImpl.java</url>
+          <line>865</line>
+          <properties />
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/Consumer.java</url>
+          <line>124</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/factory/MQClientInstance.java</url>
+          <line>590</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/consumer/DefaultMQPushConsumerImpl.java</url>
+          <line>849</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/consumer/RebalanceImpl.java</url>
+          <line>283</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-rocketmq/src/test/java/rocketmq/Producer.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-remoting/4.2.0/rocketmq-remoting-4.2.0-sources.jar!/org/apache/rocketmq/remoting/netty/NettyRemotingAbstract.java</url>
+          <line>382</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-remoting/4.2.0/rocketmq-remoting-4.2.0-sources.jar!/org/apache/rocketmq/remoting/netty/NettyRemotingAbstract.java</url>
+          <line>368</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/CustomProperties.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/CustomeConfiguration.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/logging/jdbc/BaseJdbcLogger.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.45/mysql-connector-java-5.1.45-sources.jar!/com/mysql/jdbc/ConnectionImpl.java</url>
+          <line>4075</line>
+          <properties />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.4.RELEASE/spring-context-5.0.4.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>634</line>
+          <properties />
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/controller/TestCom.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.15.RELEASE/spring-beans-4.3.15.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>314</line>
+          <properties />
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/service/JobService.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-quartz/src/test/java/com/zzc/test/springbootquartz/QuartzTest.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.0.5.RELEASE/spring-context-support-5.0.5.RELEASE-sources.jar!/org/springframework/scheduling/quartz/SchedulerFactoryBean.java</url>
+          <line>276</line>
+          <properties />
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="170" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>applicationContext.getBeanDefinitionNames()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>applicationContext.getBeanDefinitionNames())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.0.6.RELEASE/spring-context-support-5.0.6.RELEASE.jar!/org/springframework/scheduling/quartz/SchedulerAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/properties/ScheduleJobFactory.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/SchedulerListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.0.6.RELEASE/spring-context-support-5.0.6.RELEASE.jar!/org/springframework/scheduling/quartz/SchedulerFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="115" column="16" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.4.RELEASE/spring-jdbc-5.0.4.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DelegatingDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/JobBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/TriggerBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0-sources.jar!/org/quartz/Scheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.0.5.RELEASE/spring-context-support-5.0.5.RELEASE-sources.jar!/org/springframework/scheduling/quartz/QuartzJobBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="539" selection-start-line="539" selection-end-line="539" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/context/support/ApplicationContextAwareProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="952" selection-start-line="952" selection-end-line="952" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE-sources.jar!/org/springframework/web/method/support/HandlerMethodArgumentResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE-sources.jar!/org/springframework/web/method/support/HandlerMethodArgumentResolverComposite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE-sources.jar!/org/springframework/validation/DataBinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="838" selection-start-line="838" selection-end-line="838" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0-sources.jar!/org/quartz/utils/DirtyFlagMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0-sources.jar!/org/quartz/utils/StringKeyDirtyFlagMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0-sources.jar!/org/quartz/JobDataMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0-sources.jar!/org/quartz/JobBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="346" column="22" selection-start-line="346" selection-start-column="22" selection-end-line="346" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE-sources.jar!/org/springframework/util/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+          <folding>
+            <element signature="e#3042#3043#0" expanded="true" />
+            <element signature="e#3087#3088#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0-sources.jar!/org/quartz/TriggerBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="269" column="64" selection-start-line="269" selection-start-column="64" selection-end-line="269" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0-sources.jar!/org/quartz/ScheduleBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0-sources.jar!/org/quartz/SimpleScheduleBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="425" column="20" lean-forward="true" selection-start-line="425" selection-start-column="20" selection-end-line="425" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="2797" column="25" selection-start-line="2797" selection-start-column="25" selection-end-line="2797" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/controller/PersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/text/SimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23443">
+          <caret line="1438" selection-start-line="1438" selection-end-line="1438" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5372">
+          <caret line="365" selection-start-line="365" selection-end-line="365" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE-sources.jar!/org/springframework/web/method/annotation/ModelAttributeMethodProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0-sources.jar!/org/quartz/impl/StdScheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.1.RELEASE/spring-boot-2.0.1.RELEASE-sources.jar!/org/springframework/boot/context/properties/ConfigurationProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.0.5.RELEASE/spring-context-support-5.0.5.RELEASE-sources.jar!/org/springframework/scheduling/quartz/SchedulerFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="275" column="16" selection-start-line="275" selection-start-column="16" selection-end-line="275" selection-end-column="16" />
+          <folding>
+            <element signature="e#10492#10493#0" expanded="true" />
+            <element signature="e#10539#10540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2005">
+          <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/properties/QuartzProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/resources/shema/quartz.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1051">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/SpringbootQuartzApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/QuartzAutoConfigutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/src/test/java/com/zzc/test/springbootquartz/QuartzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/src/test/java/com/zzc/test/springbootquartz/SpringbootQuartzApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/controller/JobController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/domain/MyFirstJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/domain/ScheduleJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/service/JobService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/listeners/LogListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="33" column="67" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/resources/quartz.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-quartz/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springboot-data-elasticsearch</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

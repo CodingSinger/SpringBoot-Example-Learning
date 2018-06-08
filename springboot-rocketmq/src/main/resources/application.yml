@@ -1,0 +1,7 @@
+terminus:
+  rocketmq:
+    nameServerAddress: localhost:9876
+    producerGroup: testGroup
+server:
+  port: 8081
+
