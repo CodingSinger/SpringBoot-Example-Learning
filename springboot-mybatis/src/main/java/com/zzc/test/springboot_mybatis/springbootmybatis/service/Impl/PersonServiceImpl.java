@@ -44,7 +44,7 @@ public class PersonServiceImpl implements PersonService {
     @Override
     public Person findById(Integer id) {
 
-        return daodao.findById(id);
-//        return dao.queryById(id);
+//        return daodao.findById(id);
+        return dao.queryById(id);
     }
 }

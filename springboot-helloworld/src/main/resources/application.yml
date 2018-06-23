@@ -15,7 +15,8 @@ spring:
 hello:
   name: ${UT:hello}
   desc: ${DESC:/d}
-
+application:
+  name: first
 
 custom:
   name: hello

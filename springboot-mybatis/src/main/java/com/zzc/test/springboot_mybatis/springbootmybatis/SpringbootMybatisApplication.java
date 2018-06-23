@@ -8,7 +8,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 @SpringBootApplication
 
 @ServletComponentScan
-// mapper 接口类扫描包配置
+// primaryMapper 接口类扫描包配置
 @MapperScan("com.zzc.test.springboot_mybatis.springbootmybatis.dao")
 public class SpringbootMybatisApplication {
 

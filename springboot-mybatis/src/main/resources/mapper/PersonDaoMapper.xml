@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="PersonDaoDaohh">
+<mapper namespace="com.zzc.test.springboot_mybatis.springbootmybatis.Dao.PersonDao">
     <resultMap id="BaseResultMap" type="com.zzc.test.springboot_mybatis.springbootmybatis.domain.Person">
         <result column="id" property="id" />
         <result column="name" property="name" />
@@ -10,7 +10,7 @@
     <select id="queryById" resultMap="BaseResultMap" parameterType="map">
         select id,name
         from person
-        where id = #{id} and name=#{name}
+        where id = #{id}
     </select>
     <insert id="add" parameterType="com.zzc.test.springboot_mybatis.springbootmybatis.domain.Person">
         insert into person

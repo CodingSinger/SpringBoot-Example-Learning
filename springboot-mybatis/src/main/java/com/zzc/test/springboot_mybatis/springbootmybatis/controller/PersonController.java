@@ -30,7 +30,7 @@ public class PersonController {
 
 
     @RequestMapping(value = "/person/{id}",method = RequestMethod.GET)
-    public Person fperson(@PathVariable(value = "id") Integer id,Object h){
+    public Person fperson(@PathVariable(value = "id") Integer id,String h){
         System.out.println((String)h); //会报错
         return service.findById(id);
     }

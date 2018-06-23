@@ -17,7 +17,7 @@ spring:
 
 ## Mybatis 配置
 mybatis:
-  mapperLocations: classpath:mapper/*.xml
+  mapperLocations: classpath:primaryMapper/*.xml
 server:
   port: 8082
 

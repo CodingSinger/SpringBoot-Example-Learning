@@ -10,6 +10,7 @@
         <module name="springboot-dubbo-producer" />
         <module name="springboot-elasticsearch" />
         <module name="springboot-helloworld" />
+        <module name="springboot-multi-datasource" />
         <module name="springboot-mybatis" />
         <module name="springboot-mybatis-redis" />
         <module name="springboot-quartz" />
@@ -23,6 +24,7 @@
       <module name="springboot-dubbo-producer" target="1.8" />
       <module name="springboot-elasticsearch" target="1.8" />
       <module name="springboot-helloworld" target="1.8" />
+      <module name="springboot-multi-datasource" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
       <module name="springboot-mybatis-redis" target="1.8" />
       <module name="springboot-quartz" target="1.8" />

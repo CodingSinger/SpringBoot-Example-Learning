@@ -14,11 +14,28 @@
     - @ConditionalOnProperty注解的使用 只有配置文件中有某个properties属性或者有某个值时才会像Spring容器注册该bean，通常配合@Configuration使用
     
 
+@Autowired、@Value等属性都不能注入静态属性，否则会报错`Autowired annotation is not supported on static fields:`
+注入的时候是在Spring初始化所有对象的时候,doCreateBean部分代码如下，
+
+```java
+	// Initialize the bean instance.
+		Object exposedObject = bean;
+		try {
+			populateBean(beanName, mbd, instanceWrapper); //对象字段的注入
+			exposedObject = initializeBean(beanName, exposedObject, mbd); //BeanPostProcessor的前后置处理方法执行
+		}
+
+```
+如上，这两个方法都是很有用的，调用populateBean方法进行填充依赖，需要注意的是因为此时对象已经创建成功了，所以在构造函数里对@Autowired、@Value等字段的使用都是不成功的。
+其中会调用AutowiredAnnotationBeanPostProcessor的方法进行对带此类注入注解的判断和注入。但是字段注入的执行方法在`AutowiredFieldElement#inject`，可以看到该方法是直接通过Field.set方法注入的，所以不需要@Autowired、
+@Value等属性提供对应的set方法即可注入。
 
 
 
 # springboot-mybatis
 spriingboot结合mybatis进行开发
+
+如果使用interface+Mapper的方式，注意Mapper的namespace需要和interface的全限定名一致，否则会找不到对应的sql
 
 **注意需要在启动类上加上dao接口类扫描的完整包名**
 @MapperScan("com.zzc.test.springboot_mybatis.springbootmybatis.dao")
@@ -96,7 +113,7 @@ public class MyFilter implements Filter {
 @SpringBootApplication
 
 @ServletComponentScan  //启动类加这个注解
-// mapper 接口类扫描包配置
+primaryMapper
 @MapperScan("com.zzc.test.springboot_mybatis.springbootmybatis.dao")
 public class SpringbootMybatisApplication {
 
@@ -203,3 +220,16 @@ redis做缓存不能用在强一致的情况下，redis做为mysql的缓存
 
 [springboot-quartz](https://github.com/helloworlde/SpringBootCollection/tree/master/SpringBoot-ScheduledJob)
 [springboot项目集合](https://gitee.com/hengboy/spring-boot-chapter/tree/master)
+
+# springboot-多数据源
+
+@Primary 是用于当有多个相同类型的对象时，设置优先考虑的注入对象
+
+只有标注了@Primary的事务生效？
+
+因为所有标注了@Transactional的方法都会用@Primary的TransactionManager作为默认的事务管理器，所以如果sql的
+执行的数据源和事务管理器的数据源不在同一个数据源将会导致事务无法回滚，针对该情况只有在`@Transactional(rollbackFor = Exception.class,transactionManager = "")`来
+指定事务管理器。
+因此同一个方法里如果有两个数据源将无法用事务管理器回滚。这就类似于分布式事务了。
+`
+

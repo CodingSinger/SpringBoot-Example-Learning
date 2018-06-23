@@ -18,17 +18,21 @@ import org.springframework.web.bind.annotation.RestController;
 public class HellloController {
 
 
-    public HellloController() {
-    }
 
     @Autowired
     private PersonService service;
 
 
+    @Value(value = "${application.name}")
+    private String name;
 
 
+    public HellloController() {
+        System.out.println("appplication-"+name+" start "+service);
+    }
     @RequestMapping("/person/{id}")
     public Person fperson(@PathVariable(value = "id") Integer id){
+        System.out.println(name);
         return service.findById(id);
     }
 

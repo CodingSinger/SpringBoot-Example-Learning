@@ -1,0 +1,50 @@
+
+
+spring:
+  datasource:
+    primary:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://${MYSQL_ACCOUNT_HOST:127.0.0.1}:${MYSQL_ACCOUNT_PORT:3306}/${MYSQL_ACCOUNT_DATABASE:primary}?autoReconnect=true&useUnicode=true&characterEncoding=UTF8&useSSL=false&tcpKeepAlive=true&autoReconnect=true
+      username: ${MYSQL_ACCOUNT_USERNAME:root}
+      password: ${MYSQL_ACCOUNT_PASSWORD:it&1997}
+      initialSize: 3
+      minIdle: 3
+      maxActive: 20
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      removeAbandonedTimeout: 1800
+      validationQuery: select 1
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      removeAbandoned: true
+      logAbandoned: true
+      poolPreparedStatements: true
+      maxPoolPreparedStatementPerConnectionSize: 50
+      mybatis:
+        mapperLocation: classpath:primaryMapper/*.xml
+        typeAliasPackage: com.zzc.test.springbootmultidatasource.domain
+    secondary:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://${MYSQL_ACCOUNT_HOST:127.0.0.1}:${MYSQL_ACCOUNT_PORT:3306}/${MYSQL_ACCOUNT_DATABASE:secondary}?autoReconnect=true&useUnicode=true&characterEncoding=UTF8&useSSL=false&tcpKeepAlive=true&autoReconnect=true
+      username: ${MYSQL_ACCOUNT_USERNAME:root}
+      password: ${MYSQL_ACCOUNT_PASSWORD:it&1997}
+      initialSize: 3
+      minIdle: 3
+      maxActive: 20
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      removeAbandonedTimeout: 1800
+      validationQuery: select 1
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      removeAbandoned: true
+      logAbandoned: true
+      poolPreparedStatements: true
+      maxPoolPreparedStatementPerConnectionSize: 50
+      mybatis:
+        mapperLocation: classpath:secondaryMapper/*.xml
+        typeAliasPackage: com.zzc.test.springbootmultidatasource.domain

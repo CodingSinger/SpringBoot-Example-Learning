@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/springboot-dubbo-producer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-elasticsearch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-helloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-multi-datasource" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mybatis-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-quartz" charset="UTF-8" />
