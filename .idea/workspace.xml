@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c6aebf1-d37a-45ed-aaa8-ae4370244429" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/AutoConfigurationInternal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/service/SAd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/filter/MyFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-helloworld/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-helloworld/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/CustomeConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/CustomeConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/controller/HellloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/controller/HellloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/service/Impl/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/service/Impl/PersonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-helloworld/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-helloworld/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-helloworld/src/test/java/com/zzc/test/springboothelloworld/SpringbootHelloworldApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-helloworld/src/test/java/com/zzc/test/springboothelloworld/SpringbootHelloworldApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mybatis/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/SpringbootMybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/SpringbootMybatisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/controller/TestCom.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/controller/TestCom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-quartz/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/controller/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/controller/JobController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/properties/QuartzProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-quartz/src/main/java/com/zzc/test/springbootquartz/properties/QuartzProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-quartz/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-quartz/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-elasticsearch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-elasticsearch/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/springboot-mybatis/target/" />
@@ -97,8 +80,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="221">
-                <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
+              <first_editor relative-caret-position="2435">
+                <caret line="179" column="176" selection-start-line="179" selection-start-column="176" selection-end-line="179" selection-end-column="176" />
                 <folding>
                   <element signature="e#158#159#0" expanded="true" />
                   <element signature="e#223#224#0" expanded="true" />
@@ -106,6 +89,16 @@
                   <element signature="e#299#300#0" expanded="true" />
                 </folding>
               </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-elasticsearch/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -203,7 +196,6 @@
         <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/zzc/test/elasticsearch/controller/PersonController.java" />
         <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/zzc/test/elasticsearch/domain/Person.java" />
-        <option value="$PROJECT_DIR$/springboot-elasticsearch/README.md" />
         <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/zzc/test/elasticsearch/dao/PersonDao.java" />
         <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/domain/Person.java" />
         <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/zzc/test/springboot_mybatis/springbootmybatis/domain/Human.java" />
@@ -248,6 +240,7 @@
         <option value="$PROJECT_DIR$/springboot-quartz/readme.md" />
         <option value="$PROJECT_DIR$/springboot-mybatis/README.md" />
         <option value="$PROJECT_DIR$/springboot-helloworld/src/main/java/com/zzc/test/springboothelloworld/service/SAd.java" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -285,6 +278,11 @@
             <path>
               <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Example-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-elasticsearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBoot-Example-Learning" type="b2602c69:ProjectViewProjectNode" />
@@ -773,7 +771,7 @@
       <workItem from="1529666392475" duration="232000" />
       <workItem from="1529667397545" duration="1590000" />
       <workItem from="1529716893127" duration="243000" />
-      <workItem from="1529729501387" duration="1507000" />
+      <workItem from="1529729501387" duration="1628000" />
     </task>
     <task id="LOCAL-00001" summary="2018/4/8 Springboot-mybatis-redis">
       <created>1523184795202</created>
@@ -825,7 +823,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177835000" />
+    <option name="totallyTimeSpent" value="177956000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -857,10 +855,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47680098" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47680098" weight="0.33333334" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32923076" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32923076" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25396827" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="3" side_tool="true" />
@@ -1365,9 +1363,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-helloworld/src/main/resources/META-INF/additional-spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
@@ -1728,11 +1723,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="221">
-            <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
+          <first_editor relative-caret-position="2435">
+            <caret line="179" column="176" selection-start-line="179" selection-start-column="176" selection-end-line="179" selection-end-column="176" />
             <folding>
               <element signature="e#158#159#0" expanded="true" />
               <element signature="e#223#224#0" expanded="true" />

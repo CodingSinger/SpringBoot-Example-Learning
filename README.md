@@ -164,6 +164,20 @@ redis做缓存不能用在强一致的情况下，redis做为mysql的缓存
 [知乎：分布式的环境下， MySQL和Redis如何保持数据的一致性？](https://www.zhihu.com/question/36413559)
 
 
+
+# springboot+elasticsearch
+
+
+[文档](https://github.com/spring-projects/spring-data-elasticsearch)
+ 报错 
+ org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{Os_FBvGPRmSeCof-OSxLKg}{127.0.0.1}{127.0.0.1:9300}]
+ 
+ 在SpringBoot配置文件中加上 spring.data.elasticsearch.cluster-name=
+ 关于cluster-name值可在localhost:9200上进行查看
+ 
+ 
+ 关于model中的ID和Spring Data JPA的中的相似
+ https://stackoverflow.com/questions/29855280/spring-data-elasticsearch-requires-property-named-id?rq=1&utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 # springboot+quartz
 
 
