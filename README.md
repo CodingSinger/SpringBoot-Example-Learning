@@ -7,11 +7,136 @@
 # springboot-helloworld
 第一个SpringBoot学习案例
 
+- @Configuration注解的使用
+- @ConfigurationProperties注解使用
+    - 该注解使用在注入properties对象的时候需要配合@EnableConfigurationProperties使用，并且需要properties类
+    必须有对应的set方法才能注入
+    - @ConditionalOnProperty注解的使用 只有配置文件中有某个properties属性或者有某个值时才会像Spring容器注册该bean，通常配合@Configuration使用
+    
+
+
+
+
 # springboot-mybatis
 spriingboot结合mybatis进行开发
 
 **注意需要在启动类上加上dao接口类扫描的完整包名**
 @MapperScan("com.zzc.test.springboot_mybatis.springbootmybatis.dao")
+
+
+
+```java
+
+@Repository
+public class PersonDaoDao
+{
+
+    @Autowired
+    public SqlSession sqlSession;
+
+
+
+    public int create(Person person){
+        return sqlSession.insert("com.zzc.test.springboot_mybatis.springbootmybatis.Dao.PersonDaoDao.add",person);
+    }
+
+    public Person findById(Integer id){
+
+//        return sqlSession.selectOne("PersonDao.queryById", ImmutableMap.of("id",id));
+        //statement必须是对应的mapper.xml文件的namespace.sqlId语句的格式 并且好像namespace可以随便取，但不推荐随便取
+
+        //如果格式不符合则会报错Mapped Statements collection does not contain ...
+        return sqlSession.selectOne("PersonDaoDaohh.queryById", ImmutableMap.of("id",id));
+        //一个参数的时候传map或者传id都行，parameterType=map或者int都行，因为mybatis会自己为我们解析出来，但sql有多个参数时则需包装到map里，并且mapperxml文件中parameterType=map
+    }
+}
+
+```
+
+
+mysql预编译功能 默认不开启
+http://cs-css.iteye.com/blog/1847772
+https://segmentfault.com/a/1190000004617028
+
+
+
+## SpringBoot添加Interceptor
+
+```java
+
+@Configuration
+public class InterceptorRegistration implements WebMvcConfigurer {
+
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(new MyFirstInterceptor());
+    }
+}
+
+```
+
+
+## SpringBoot 添加Filter
+
+### 方法1
+```java
+
+@WebFilter(urlPatterns = "/*")
+public class MyFilter implements Filter {
+
+  
+}
+
+```
+
+
+```java
+
+@SpringBootApplication
+
+@ServletComponentScan  //启动类加这个注解
+// mapper 接口类扫描包配置
+@MapperScan("com.zzc.test.springboot_mybatis.springbootmybatis.dao")
+public class SpringbootMybatisApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootMybatisApplication.class, args);
+	}
+}
+
+```
+
+
+### 方法二
+
+```java
+
+public  class  TestFilter  implements  Filter  {
+{ 
+    
+}
+
+
+```
+
+
+```java
+
+
+@Bean
+public FilterRegistrationBean testFilterRegistration() {
+    FilterRegistrationBean registration = new FilterRegistrationBean();
+    registration.setFilter(new TestFilter());
+    registration.addUrlPatterns("/*");
+    registration.addInitParameter("paramName", "paramValue");
+    registration.setName("testFilter");
+    registration.setOrder(1);
+    return registration;
+}
+
+```
+
 
 
 
@@ -37,3 +162,30 @@ redis做缓存不能用在强一致的情况下，redis做为mysql的缓存
 3. redis删除正确，mysql更新正确，返回正确。也不会破坏一致性。
 
 [知乎：分布式的环境下， MySQL和Redis如何保持数据的一致性？](https://www.zhihu.com/question/36413559)
+
+
+# springboot+quartz
+
+
+
+```java
+
+  trigger = TriggerBuilder.newTrigger()
+                    .withIdentity(scheduleJob.getTriggerName(),scheduleJob.getTriggerGroup())
+                    .withDescription(scheduleJob.getDescription())
+                    .startAt(date)
+                    .build();
+```
+持久化在mysql的任务date如果已经超过指定时间(startAt())在`        scheduler.scheduleJob(jobDetail, trigger);`
+之后并不会马上运行，而是在下次启动服务器的时候再从数据库中加载并运行，运行之后删除任务。(前提没有超过endAt限制)
+
+
+
+```分布式环境下
+一个间隔执行的事件并不是由一个机器获取执行到这台机器宕机为止，中途有可能由其他机器执行，(其实就应该这样)不然的话可能会导致某台
+机器全是间断时间短执行的任务，造成负载很高。
+
+```
+
+[springboot-quartz](https://github.com/helloworlde/SpringBootCollection/tree/master/SpringBoot-ScheduledJob)
+[springboot项目集合](https://gitee.com/hengboy/spring-boot-chapter/tree/master)

@@ -8,6 +8,9 @@ logging:
 # 如果不指定默认值并且在运行程序注入时找不到参数则会报错
 
 
+spring:
+  datasource:
+    hhh: 343
 
 hello:
   name: ${UT:hello}

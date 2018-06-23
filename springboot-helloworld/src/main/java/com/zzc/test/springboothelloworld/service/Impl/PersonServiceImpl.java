@@ -12,7 +12,8 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class PersonServiceImpl implements PersonService{
-
+    public PersonServiceImpl() {
+    }
 
     @Autowired
     private PersonDao dao;

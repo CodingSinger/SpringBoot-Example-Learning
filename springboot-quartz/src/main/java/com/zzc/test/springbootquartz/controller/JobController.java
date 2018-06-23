@@ -1,6 +1,7 @@
 package com.zzc.test.springbootquartz.controller;
 
 import com.zzc.test.springbootquartz.domain.ScheduleJob;
+import com.zzc.test.springbootquartz.properties.QuartzProperties;
 import com.zzc.test.springbootquartz.service.JobService;
 import javafx.scene.input.DataFormat;
 import org.quartz.SchedulerException;
@@ -22,6 +23,9 @@ import java.util.Date;
  */
 @RestController
 public class JobController {
+
+    @Autowired
+    private QuartzProperties quartzProperties;
 
 
 
@@ -45,6 +49,6 @@ public class JobController {
 
     @GetMapping(value = "/list")
     public void listJob(){
-
+        System.out.println(quartzProperties.getName());
     }
 }

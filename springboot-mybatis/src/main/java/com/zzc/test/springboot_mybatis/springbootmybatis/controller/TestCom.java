@@ -16,6 +16,10 @@ import org.springframework.stereotype.Component;
 public class TestCom implements ApplicationContextAware {
 
 
+    public void run(){
+        System.out.println("run");
+    }
+
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         System.out.println(applicationContext.getBeanDefinitionNames());

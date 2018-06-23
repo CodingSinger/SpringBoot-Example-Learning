@@ -18,7 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class HellloController {
 
 
-
+    public HellloController() {
+    }
 
     @Autowired
     private PersonService service;
