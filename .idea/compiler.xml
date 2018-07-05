@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-canal" />
         <module name="springboot-dubbo-consumer" />
         <module name="springboot-dubbo-producer" />
         <module name="springboot-elasticsearch" />
@@ -20,6 +21,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-canal" target="1.8" />
       <module name="springboot-dubbo-consumer" target="1.8" />
       <module name="springboot-dubbo-producer" target="1.8" />
       <module name="springboot-elasticsearch" target="1.8" />

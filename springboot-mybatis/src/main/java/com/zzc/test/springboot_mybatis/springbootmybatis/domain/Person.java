@@ -11,7 +11,7 @@ public class Person extends Human{
 
 
 
-    private Dog dog;//注入dog.price 需要这样dog.price 直接用price注入不了
+    private Dog dog;//注入dog.price 需要这样dog.price 直接用price注入不了 并且需要提供dog的get方法 因为注入dog元素的时候 需要获取dog对象
 
     public Dog getDog() {
         return dog;

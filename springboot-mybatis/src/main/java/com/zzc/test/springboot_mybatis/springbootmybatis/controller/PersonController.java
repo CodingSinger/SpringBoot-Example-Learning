@@ -18,14 +18,12 @@ public class PersonController {
 
 
 
-    @RequestMapping(value = "/person/{person}",method = RequestMethod.POST)
+    @RequestMapping(value = "/person",method = RequestMethod.GET)
     public Person addPerson(Object h,int age, Person p){
-        System.out.println(h);
+        System.out.println(p);
 
-        System.out.println(age);
         return p;
     }
-
 
 
 

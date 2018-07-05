@@ -1,0 +1,5 @@
+
+com:
+  zzc:
+    canal:
+      model: ${MODEL:simple}

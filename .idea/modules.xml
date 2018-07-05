@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-Example-Learning.iml" filepath="$PROJECT_DIR$/SpringBoot-Example-Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-canal/springboot-canal.iml" filepath="$PROJECT_DIR$/springboot-canal/springboot-canal.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-consumer/springboot-dubbo-consumer.iml" filepath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-dubbo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-producer/springboot-dubbo-producer.iml" filepath="$PROJECT_DIR$/springboot-dubbo-producer/springboot-dubbo-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" />

@@ -1,5 +1,7 @@
 package com.zzc.test.springboothelloworld.controller;
 
+import com.google.common.collect.Lists;
+import com.zzc.test.springboothelloworld.domain.Car;
 import com.zzc.test.springboothelloworld.domain.Person;
 import com.zzc.test.springboothelloworld.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,6 +10,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author zhengzechao
@@ -32,8 +37,19 @@ public class HellloController {
     }
     @RequestMapping("/person/{id}")
     public Person fperson(@PathVariable(value = "id") Integer id){
+
         System.out.println(name);
         return service.findById(id);
+    }
+
+    @RequestMapping("/list/{ch}")
+    public Object fperson(@PathVariable int ch){
+        if (ch == 1){
+            return Lists.newArrayList(new Person("1",12),new Person("2",23));
+        }else{
+            return Lists.newArrayList(new Car(23),new Car(24));
+        }
+
     }
 
 
@@ -45,7 +61,9 @@ public class HellloController {
     }
 
     @RequestMapping("/hello/{id}")
-    public String sayHello(@PathVariable int id){
+    public String sayHello(@PathVariable int id,String[] ss){
+        System.out.println(Arrays.toString(ss));
+
         return "actor"+id+":Hello!";
     }
 
