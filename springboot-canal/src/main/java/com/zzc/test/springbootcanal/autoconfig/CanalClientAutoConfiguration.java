@@ -15,8 +15,9 @@ import org.springframework.context.annotation.Configuration;
  */
 
 @ConditionalOnProperty(
-        prefix = "com.zzc.canal",
-        name = "model")
+        prefix = "canal",
+        name = "enable",
+        havingValue = "true")
 @Configuration
 @EnableConfigurationProperties(value = CanalProperties.class)
 public class CanalClientAutoConfiguration {
@@ -25,7 +26,7 @@ public class CanalClientAutoConfiguration {
     private CanalProperties canalProperties;
 
 
-    @Bean("canalClientManager")
+    @Bean
     public CanalClientManager canalClientManager(){
         return new CanalClientManager(this.canalProperties);
     }

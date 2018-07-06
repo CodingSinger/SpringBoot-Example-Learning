@@ -16,6 +16,7 @@ import java.util.List;
  */
 public class CanalClient {
 
+
     public static void main(String args[]) {
         CanalConnector connector = CanalConnectors.newSingleConnector(new InetSocketAddress(AddressUtils.getHostIp(),
                 11111), "example", "", "");
@@ -52,6 +53,7 @@ public class CanalClient {
             }
             CanalEntry.RowChange rowChage = null;
             try {
+
                 rowChage = CanalEntry.RowChange.parseFrom(entry.getStoreValue());
             } catch (Exception e) {
                 throw new RuntimeException("ERROR ## parser of eromanga-event has an error , data:" + entry.toString(),
@@ -62,15 +64,14 @@ public class CanalClient {
                     entry.getHeader().getLogfileName(), entry.getHeader().getLogfileOffset(),
                     entry.getHeader().getSchemaName(), entry.getHeader().getTableName(),
                     eventType));
-
-
             System.out.println(rowChage.getSql());
             for (CanalEntry.RowData rowData : rowChage.getRowDatasList()) {
                 if (eventType == CanalEntry.EventType.DELETE) {
+                    printColumn(rowData.getBeforeColumnsList());
                 } else if (eventType == CanalEntry.EventType.INSERT) {
                     printColumn(rowData.getAfterColumnsList());
-                    System.out.println(rowData.toBuilder());
                 } else {
+                    //修改过的aftrercolumn的getUpdated为true,根据主键来拼凑update sql
                     System.out.println("-------> before");
                     printColumn(rowData.getBeforeColumnsList());
                     System.out.println("-------> after");
@@ -82,7 +83,8 @@ public class CanalClient {
 
     private static void printColumn( List<CanalEntry.Column> columns) {
         for (CanalEntry.Column column : columns) {
-            System.out.println(column.getName() + " : " + column.getValue() + "    update=" + column.getUpdated());
+            System.out.println("key"+column.getIsKey()+" "+column.getName() + " : " + column.getValue() + "    update="
+                    + column.getUpdated()+" type = "+column.getMysqlType());
         }
     }
 }

@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: io.terminus.common:terminus-spring-boot-starter-rocketmq:0.0.3-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/io/terminus/common/terminus-spring-boot-starter-rocketmq/0.0.3-SNAPSHOT/terminus-spring-boot-starter-rocketmq-0.0.3-20180409.034048-2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/terminus/common/terminus-spring-boot-starter-rocketmq/0.0.3-SNAPSHOT/terminus-spring-boot-starter-rocketmq-0.0.3-20180514.020757-5.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/io/terminus/common/terminus-spring-boot-starter-rocketmq/0.0.3-SNAPSHOT/terminus-spring-boot-starter-rocketmq-0.0.3-20180409.034048-2-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/terminus/common/terminus-spring-boot-starter-rocketmq/0.0.3-SNAPSHOT/terminus-spring-boot-starter-rocketmq-0.0.3-20180514.020757-5-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/io/terminus/common/terminus-spring-boot-starter-rocketmq/0.0.3-SNAPSHOT/terminus-spring-boot-starter-rocketmq-0.0.3-20180409.034048-2-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/terminus/common/terminus-spring-boot-starter-rocketmq/0.0.3-SNAPSHOT/terminus-spring-boot-starter-rocketmq-0.0.3-20180514.020757-5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

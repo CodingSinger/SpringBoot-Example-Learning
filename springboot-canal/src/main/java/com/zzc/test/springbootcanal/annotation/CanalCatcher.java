@@ -22,7 +22,7 @@ public @interface CanalCatcher {
      * 格式如下
      * host:ip-example
      */
-    String value() default "127.0.0.1:3306-example";
+    String value() default "127.0.0.1:11111-example";
 
     /**
      * 本连接在无canal消息推送的情况下的休眠时间
@@ -34,8 +34,14 @@ public @interface CanalCatcher {
      */
     String pattern() default ".*\\..*";
 
+    /**
+     * 用户名
+     */
     String username() default "";
 
+    /**
+     * 密码
+     */
     String password() default "";
 
     /**
@@ -51,6 +57,11 @@ public @interface CanalCatcher {
      */
     int timeout() default -1;
 
+    /**
+     * 模式 默认为单机模式
+     * @see ConnectionModel
+     *
+     */
     ConnectionModel model() default ConnectionModel.SIMPLE;
 
 }

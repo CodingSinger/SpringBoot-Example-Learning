@@ -1,5 +1,8 @@
 
-com:
-  zzc:
-    canal:
-      model: ${MODEL:simple}
+
+canal:
+  enable: ${enable:true}
+  globalIdleSleepTime: ${globalIdleSleepTime:5000}
+  core-thread-size: ${VAR1:10}
+  max-thread-size: ${VAR2:10}
+  keep-alive-time: ${VAR3:10000}

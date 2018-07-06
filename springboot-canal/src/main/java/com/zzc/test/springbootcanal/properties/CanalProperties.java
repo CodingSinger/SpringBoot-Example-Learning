@@ -11,7 +11,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @date 2018/7/5
  * Email ooczzoo@gmail.com
  */
-@ConfigurationProperties(prefix = "com.zzc.canal")
+@ConfigurationProperties(prefix = "canal")
 public class CanalProperties {
 
     /**

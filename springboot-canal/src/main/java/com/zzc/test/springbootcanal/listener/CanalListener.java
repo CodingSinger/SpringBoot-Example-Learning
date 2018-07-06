@@ -1,5 +1,7 @@
 package com.zzc.test.springbootcanal.listener;
 
+import com.alibaba.otter.canal.protocol.CanalEntry;
+
 /**
  * @author zhengzechao
  * @date 2018/7/5
@@ -7,12 +9,14 @@ package com.zzc.test.springbootcanal.listener;
  */
 public interface  CanalListener {
 
-    void onDelete();
+    void onDelete(CanalEntry.Entry entry, CanalEntry.RowChange rowChange);
 
-    void onUpdate();
+    void onUpdate(CanalEntry.Entry entry, CanalEntry.RowChange rowChange);
 
-    void onInsert();
+    void onInsert(CanalEntry.Entry entry, CanalEntry.RowChange rowChange);
 
-    void onDDL();
+    void onDDL(CanalEntry.Entry entry, CanalEntry.RowChange rowChange);
+
+    void onException(CanalEntry.Entry entry, CanalEntry.RowChange rowChange);
 
 }

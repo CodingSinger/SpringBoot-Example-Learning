@@ -15,7 +15,6 @@ import java.util.Objects;
 public class ClientConfig {
 
 
-
     private String host;
 
     private Integer port;
@@ -29,6 +28,10 @@ public class ClientConfig {
     private String subsribePattern;
 
     private Long idleSleepTime;
+
+    private int timeout;
+
+    private int batchSize;
 
     private ConnectionModel connectionModel;
 
@@ -91,6 +94,22 @@ public class ClientConfig {
         this.idleSleepTime = idleSleepTime;
     }
 
+    public int getTimeout() {
+        return timeout;
+    }
+
+    public void setTimeout(int timeout) {
+        this.timeout = timeout;
+    }
+
+    public int getBatchSize() {
+        return batchSize;
+    }
+
+    public void setBatchSize(int batchSize) {
+        this.batchSize = batchSize;
+    }
+
     public ConnectionModel getConnectionModel() {
         return connectionModel;
     }
@@ -132,6 +151,8 @@ public class ClientConfig {
             clientConfig.setUsername(canalCatcher.username());
             clientConfig.setPassword(canalCatcher.password());
             clientConfig.setSubsribePattern(canalCatcher.pattern());
+            clientConfig.setBatchSize(canalCatcher.batchSize());
+            clientConfig.setTimeout(canalCatcher.timeout());
             clientConfig.setConnectionModel(canalCatcher.model());
 
         } catch (NumberFormatException e) {
